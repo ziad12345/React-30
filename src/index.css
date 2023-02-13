@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+label {
+  margin-left: 6%;
+  font-weight: bold;
+}
+
+
+hr {
+  height: 2px;
+  background: black;
+  margin-top: 1%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+
+select {
+  margin-left: 2%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  
+}
+
+
+
+.itemDiv {
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+
+.delete-checkbox {
+  margin-right: 100%;
+}
+
+.pageTitle {
+  margin-top: 3%;
+  margin-left: 6%;
+  width: 800px;
+  display: inline-block;
+}
+
+
+
+.add-btn {
+  margin-right: 40px;
+}
+
+
+.specialInput {
+  margin-left: 8%;
+}
+
+.newinputs {
+  margin-right: 800px;
+}
+
+#name {
+  margin-left: 3%;
+}
+
+#sku {
+  margin-left: 4%;
+}
+
+
+#price {
+  margin-left: 1.6%;
 }
