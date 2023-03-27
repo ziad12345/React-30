@@ -1,12 +1,14 @@
 <?php
 
-class DbConnect {
+class DbConnect
+{
     private $server = "localhost";
-    private $dbname = "id20275571_myproductdata";
-    private $user = "id20275571_ziad";
-    private $pass = "1wznsI9QQl8([o.4";
+    private $dbname = "id20476865_react";
+    private $user = "id20476865_ziad";
+    private $pass = "=<qu*)w&)|^qX8L@";
 
-    public function connect(){
+    public function connect()
+    {
         try {
             $conn = new mysqli($this->server, $this->user, $this->pass, $this->dbname);;
             return $conn;
@@ -15,5 +17,3 @@ class DbConnect {
         }
     }
 }
-
-?>
